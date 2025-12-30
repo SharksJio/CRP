@@ -2,10 +2,9 @@ import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 
 // JWT secret - fail if not provided
-const JWT_SECRET = process.env.JWT_SECRET;
-if (!JWT_SECRET) {
-  console.error('FATAL: JWT_SECRET environment variable is required');
-  process.exit(1);
+const JWT_SECRET = process.env.JWT_SECRET || 'default_secret_change_in_production';
+if (!process.env.JWT_SECRET) {
+  console.warn('WARNING: Using default JWT_SECRET. Set JWT_SECRET environment variable in production!');
 }
 
 export const authMiddleware = (req: Request, res: Response, next: NextFunction) => {

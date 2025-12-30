@@ -95,9 +95,6 @@ services:
       - redis
     networks:
       - crp_network
-    volumes:
-      - ./backend/communication-service:/app
-      - /app/node_modules
 
   expense-service:
     build:
@@ -170,9 +167,6 @@ services:
       - redis
     networks:
       - crp_network
-    volumes:
-      - ./backend/auth-service:/app
-      - /app/node_modules
 
   # ============================================
   # Web Admin Frontend
