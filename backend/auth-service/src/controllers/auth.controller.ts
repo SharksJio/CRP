@@ -6,9 +6,14 @@ import { authMiddleware } from '../middleware/auth.middleware';
 
 const router = Router();
 
-// JWT secret
-const JWT_SECRET = process.env.JWT_SECRET || 'your_super_secret_jwt_key';
+// JWT secret - fail if not provided
+const JWT_SECRET = process.env.JWT_SECRET;
 const JWT_EXPIRY = process.env.JWT_EXPIRY || '1h';
+
+if (!JWT_SECRET) {
+  console.error('FATAL: JWT_SECRET environment variable is required');
+  process.exit(1);
+}
 
 /**
  * POST /api/v1/auth/register
