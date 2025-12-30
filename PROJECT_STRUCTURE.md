@@ -348,10 +348,10 @@ npm test                    # Unit tests
 npm run test:e2e           # Integration tests
 npm run test:cov           # Coverage
 
-# Mobile
+# Mobile (Flutter)
 cd mobile
-npm test                    # Unit tests
-npm run test:e2e           # E2E tests with Detox
+flutter test                    # Unit tests
+flutter test integration_test   # Integration tests
 ```
 
 ### Deployment

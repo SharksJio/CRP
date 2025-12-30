@@ -89,7 +89,7 @@ This document provides a detailed evaluation of open-source solutions and techno
 ```
 ┌─────────────────┐
 │  Mobile App     │
-│  (React Native) │
+│    (Flutter)    │
 └────────┬────────┘
          │
          ├─── FCM (Push Notifications)
