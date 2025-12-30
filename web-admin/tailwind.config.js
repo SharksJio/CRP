@@ -1,0 +1,141 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        // Material Design 3.0 inspired color palette
+        primary: {
+          50: '#EDE7F6',
+          100: '#D1C4E9',
+          200: '#B39DDB',
+          300: '#9575CD',
+          400: '#7E57C2',
+          500: '#6750A4', // Primary
+          600: '#5E4BA2',
+          700: '#5342A0',
+          800: '#49379E',
+          900: '#38249A',
+        },
+        secondary: {
+          50: '#F3E5F5',
+          100: '#E1BEE7',
+          200: '#CE93D8',
+          300: '#BA68C8',
+          400: '#AB47BC',
+          500: '#9C27B0', // Secondary
+          600: '#8E24AA',
+          700: '#7B1FA2',
+          800: '#6A1B9A',
+          900: '#4A148C',
+        },
+        tertiary: {
+          50: '#E8F5E9',
+          100: '#C8E6C9',
+          200: '#A5D6A7',
+          300: '#81C784',
+          400: '#66BB6A',
+          500: '#4CAF50',
+          600: '#43A047',
+          700: '#388E3C',
+          800: '#2E7D32',
+          900: '#1B5E20',
+        },
+        surface: {
+          dim: '#DED8E1',
+          DEFAULT: '#FEF7FF',
+          bright: '#FEF7FF',
+          container: {
+            lowest: '#FFFFFF',
+            low: '#F7F2FA',
+            DEFAULT: '#F3EDF7',
+            high: '#ECE6F0',
+            highest: '#E6E0E9',
+          },
+        },
+        outline: {
+          DEFAULT: '#79747E',
+          variant: '#CAC4D0',
+        },
+        error: {
+          50: '#FFEBEE',
+          100: '#FFCDD2',
+          200: '#EF9A9A',
+          300: '#E57373',
+          400: '#EF5350',
+          500: '#B3261E',
+          600: '#E53935',
+          700: '#D32F2F',
+          800: '#C62828',
+          900: '#B71C1C',
+        },
+        success: {
+          50: '#E8F5E9',
+          100: '#C8E6C9',
+          200: '#A5D6A7',
+          300: '#81C784',
+          400: '#66BB6A',
+          500: '#4CAF50',
+          600: '#43A047',
+          700: '#388E3C',
+          800: '#2E7D32',
+          900: '#1B5E20',
+        },
+        warning: {
+          50: '#FFF3E0',
+          100: '#FFE0B2',
+          200: '#FFCC80',
+          300: '#FFB74D',
+          400: '#FFA726',
+          500: '#FF9800',
+          600: '#FB8C00',
+          700: '#F57C00',
+          800: '#EF6C00',
+          900: '#E65100',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+      },
+      borderRadius: {
+        'xl': '12px',
+        '2xl': '16px',
+        '3xl': '24px',
+        '4xl': '28px',
+      },
+      boxShadow: {
+        'elevation-1': '0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15)',
+        'elevation-2': '0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15)',
+        'elevation-3': '0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3)',
+        'elevation-4': '0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px rgba(0, 0, 0, 0.3)',
+        'elevation-5': '0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3)',
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.2s ease-out',
+        'slide-up': 'slideUp 0.3s ease-out',
+        'scale-in': 'scaleIn 0.2s ease-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideUp: {
+          '0%': { transform: 'translateY(10px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        scaleIn: {
+          '0%': { transform: 'scale(0.95)', opacity: '0' },
+          '100%': { transform: 'scale(1)', opacity: '1' },
+        },
+      },
+    },
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
+}
