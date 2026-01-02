@@ -1,7 +1,7 @@
 {
   "name": "crp-fee-service",
   "version": "1.0.0",
-  "description": "CRP PreSchool Management - Fee Management Service",
+  "description": "Kitties powered by Droidminnds Management - Fee Management Service",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",

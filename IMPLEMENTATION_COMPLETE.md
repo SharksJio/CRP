@@ -2,7 +2,7 @@
 
 ## Summary
 
-This implementation adds the complete web application and missing backend modules (Expense and Fee Management) to the CRP PreSchool Management System.
+This implementation adds the complete web application and missing backend modules (Expense and Fee Management) to the Kitties powered by Droidminnds Management System.
 
 ## What Was Implemented
 

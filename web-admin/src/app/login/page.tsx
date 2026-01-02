@@ -43,7 +43,7 @@ export default function LoginPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
             </svg>
           </div>
-          <h1 className="text-2xl font-semibold text-gray-900">CRP PreSchool</h1>
+          <h1 className="text-2xl font-semibold text-gray-900">Kitties powered by Droidminnds</h1>
           <p className="text-gray-600 mt-1">Welcome back! Sign in to continue</p>
         </div>
 
@@ -161,7 +161,7 @@ export default function LoginPage() {
 
         {/* Footer */}
         <p className="text-center text-sm text-gray-500 mt-6">
-          © 2024 CRP PreSchool Management System
+          © 2024 Kitties powered by Droidminnds Management System
         </p>
       </div>
     </div>

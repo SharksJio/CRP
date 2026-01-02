@@ -1,4 +1,4 @@
-# Docker Compose Configuration for CRP PreSchool Management System
+# Docker Compose Configuration for Kitties powered by Droidminnds Management System
 
 version: '3.8'
 

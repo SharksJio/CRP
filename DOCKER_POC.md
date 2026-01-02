@@ -1,7 +1,7 @@
 # Docker POC - Quick Start Guide
 
 ## Overview
-This is a Proof of Concept (POC) implementation of the CRP PreSchool Management System running on Docker. This setup allows you to test the system locally before migrating to production cloud infrastructure.
+This is a Proof of Concept (POC) implementation of the Kitties powered by Droidminnds Management System running on Docker. This setup allows you to test the system locally before migrating to production cloud infrastructure.
 
 ## What's Included
 

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'CRP PreSchool Management',
+  title: 'Kitties powered by Droidminnds Management',
   description: 'Admin Dashboard for PreSchool Management System',
 }
 
