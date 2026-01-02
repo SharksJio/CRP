@@ -181,15 +181,13 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - NEXT_PUBLIC_API_URL=http://localhost:3000/api/v1
+      - NEXT_PUBLIC_AUTH_SERVICE_URL=http://localhost:3004/api/v1
+      - NEXT_PUBLIC_COMMUNICATION_SERVICE_URL=http://localhost:3001/api/v1
     depends_on:
-      - api-gateway
+      - auth-service
+      - communication-service
     networks:
       - crp_network
-    volumes:
-      - ./web-admin:/app
-      - /app/node_modules
-      - /app/.next
 
   # ============================================
   # Monitoring & Logging
