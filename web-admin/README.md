@@ -1,6 +1,6 @@
-# CRP PreSchool Management - Web Admin
+# Kitties powered by Droidminnds Management - Web Admin
 
-Web-based administration panel for the CRP PreSchool Management System.
+Web-based administration panel for the Kitties powered by Droidminnds Management System.
 
 ## Features
 

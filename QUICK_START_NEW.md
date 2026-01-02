@@ -1,4 +1,4 @@
-# Quick Start Guide - CRP PreSchool Management System
+# Quick Start Guide - Kitties powered by Droidminnds Management System
 
 ## Prerequisites
 
@@ -86,7 +86,7 @@ curl -X POST http://localhost:3001/api/v1/notifications \
     "userId": "00000000-0000-0000-0000-000000000002",
     "type": "general",
     "title": "Welcome Message",
-    "message": "Welcome to CRP PreSchool Management System!",
+    "message": "Welcome to Kitties powered by Droidminnds Management System!",
     "priority": "normal"
   }'
 ```

@@ -1,4 +1,4 @@
-# CRP PreSchool Management System - Project Structure
+# Kitties powered by Droidminnds Management System - Project Structure
 
 ## Directory Structure
 
