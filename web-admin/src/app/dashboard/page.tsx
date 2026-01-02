@@ -261,7 +261,7 @@ export default function DashboardPage() {
             </svg>
           </div>
           <div className="flex-1">
-            <h3 className="font-semibold text-gray-900 mb-2">Welcome to CRP PreSchool Management</h3>
+            <h3 className="font-semibold text-gray-900 mb-2">Welcome to Kitties powered by Droidminnds Management</h3>
             <p className="text-gray-600 mb-4">
               This dashboard helps you manage all aspects of your preschool. Use the navigation menu to access different modules:
             </p>

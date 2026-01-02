@@ -32,7 +32,7 @@ export default function Home() {
           </svg>
         </div>
         
-        <h1 className="text-3xl font-semibold text-gray-900 mb-2">CRP PreSchool</h1>
+        <h1 className="text-3xl font-semibold text-gray-900 mb-2">Kitties powered by Droidminnds</h1>
         <p className="text-gray-600 mb-8">Management System</p>
         
         {/* Loading indicator */}

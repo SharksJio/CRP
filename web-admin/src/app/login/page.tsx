@@ -183,10 +183,8 @@ export default function LoginPage() {
             <div className="absolute inset-0 bg-kids-yellow rounded-full animate-pulse opacity-30" />
             <SchoolIcon className="w-full h-full relative z-10 animate-wiggle" />
           </div>
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-kids-pink via-kids-purple to-kids-blue bg-clip-text text-transparent">
-            CRP PreSchool
-          </h1>
-          <p className="text-gray-600 mt-2 text-lg">🎨 Welcome to Learning Fun! 🎈</p>
+          <h1 className="text-2xl font-semibold text-gray-900">Kitties powered by Droidminnds</h1>
+          <p className="text-gray-600 mt-1">Welcome back! Sign in to continue</p>
         </div>
 
         {/* Login Card */}
@@ -289,10 +287,8 @@ export default function LoginPage() {
         </div>
 
         {/* Footer */}
-        <p className="text-center text-sm text-gray-500 mt-6 flex items-center justify-center gap-2">
-          <span>🌈</span>
-          © 2024 CRP PreSchool Management System
-          <span>⭐</span>
+        <p className="text-center text-sm text-gray-500 mt-6">
+          © 2024 Kitties powered by Droidminnds Management System
         </p>
       </div>
     </div>

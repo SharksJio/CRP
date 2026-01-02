@@ -1,7 +1,7 @@
 # Database Schema Design
 
 ## Overview
-This document defines the database schema for the Communication, Expense Management, and Fee Management modules of the CRP PreSchool Management System.
+This document defines the database schema for the Communication, Expense Management, and Fee Management modules of the Kitties powered by Droidminnds Management System.
 
 **Database**: PostgreSQL 15+
 **Naming Convention**: snake_case
