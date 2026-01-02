@@ -21,6 +21,22 @@ module.exports = {
           800: '#49379E',
           900: '#38249A',
         },
+        // Kids-friendly color palette
+        kids: {
+          yellow: '#FFD93D',
+          orange: '#FF9F45',
+          pink: '#FF6B9D',
+          purple: '#A855F7',
+          blue: '#60A5FA',
+          cyan: '#22D3EE',
+          green: '#4ADE80',
+          red: '#F87171',
+          peach: '#FECACA',
+          mint: '#A7F3D0',
+          lavender: '#DDD6FE',
+          sky: '#BAE6FD',
+          cream: '#FEF3C7',
+        },
         secondary: {
           50: '#F3E5F5',
           100: '#E1BEE7',
@@ -118,11 +134,24 @@ module.exports = {
         'fade-in': 'fadeIn 0.2s ease-out',
         'slide-up': 'slideUp 0.3s ease-out',
         'scale-in': 'scaleIn 0.2s ease-out',
+        'float': 'float 3s ease-in-out infinite',
+        'float-slow': 'float 4s ease-in-out infinite',
+        'float-delayed': 'float 3s ease-in-out 1s infinite',
+        'wiggle': 'wiggle 2s ease-in-out infinite',
+        'bounce-slow': 'bounce 2s infinite',
       },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
         },
         slideUp: {
           '0%': { transform: 'translateY(10px)', opacity: '0' },
