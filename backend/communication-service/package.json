@@ -1,7 +1,7 @@
 {
   "name": "crp-communication-service",
   "version": "1.0.0",
-  "description": "CRP PreSchool Management - Communication Service (POC)",
+  "description": "Kitties powered by Droidminnds Management - Communication Service (POC)",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",

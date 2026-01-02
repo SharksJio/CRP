@@ -1,4 +1,4 @@
-# CRP PreSchool Management System
+# Kitties powered by Droidminnds Management System
 
 ## Project Overview
 This is a comprehensive PreSchool Management System designed to streamline operations for preschools, focusing on Communication, Expense Management, and Fee Management as the initial modules.

@@ -1,7 +1,7 @@
 {
   "name": "crp-auth-service",
   "version": "1.0.0",
-  "description": "CRP PreSchool Management - Authentication Service (POC)",
+  "description": "Kitties powered by Droidminnds Management - Authentication Service (POC)",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",

@@ -1,4 +1,4 @@
--- CRP PreSchool Management System - Database Initialization Script
+-- Kitties powered by Droidminnds Management System - Database Initialization Script
 -- PostgreSQL Database Schema for Docker POC
 
 -- Enable UUID extension

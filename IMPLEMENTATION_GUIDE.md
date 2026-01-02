@@ -2,7 +2,7 @@
 
 ## 🎯 What Has Been Implemented
 
-This document describes the Docker POC (Proof of Concept) implementation for the CRP PreSchool Management System, ready for testing and migration to production cloud infrastructure.
+This document describes the Docker POC (Proof of Concept) implementation for the Kitties powered by Droidminnds Management System, ready for testing and migration to production cloud infrastructure.
 
 ## 📦 Deliverables
 
